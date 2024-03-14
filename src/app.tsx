@@ -8,7 +8,7 @@
 import React, {useEffect} from 'react';
 import SplashScreen from 'react-native-splash-screen';
 import {WebView} from 'react-native-webview';
-import {Text, StyleSheet, Platform} from 'react-native';
+import {StyleSheet, Platform} from 'react-native';
 
 const styles = StyleSheet.create({
   container: {
@@ -31,7 +31,7 @@ function App(): JSX.Element {
     <WebView
       style={styles.container}
       useWebKit
-      source={{uri: 'https://magickasoft.github.io/event-app/'}}
+      source={{uri: 'https://magickasoft.github.io/game-feary-runes/'}}
       onNavigationStateChange={console.log}
       onLoadEnd={() => setLoading(false)}
     />
