@@ -31,7 +31,7 @@ function App(): JSX.Element {
     <WebView
       style={styles.container}
       useWebKit
-      source={{uri: 'https://magickasoft.github.io/game-feary-runes/'}}
+      source={{uri: 'https://magickasoft.github.io/game-bubble-pandas/'}}
       onNavigationStateChange={console.log}
       onLoadEnd={() => setLoading(false)}
     />
