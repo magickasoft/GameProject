@@ -1,4 +1,4 @@
-package com.gameproject;
+package com.madjoylab.bubblepandas;
 
 import android.os.Bundle;
 import org.devio.rn.splashscreen.SplashScreen;

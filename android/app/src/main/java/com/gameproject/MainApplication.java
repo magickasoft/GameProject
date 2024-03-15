@@ -1,4 +1,4 @@
-package com.gameproject;
+package com.madjoylab.bubblepandas;
 
 import android.app.Application;
 import com.facebook.react.PackageList;
